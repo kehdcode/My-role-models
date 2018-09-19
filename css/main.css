@@ -13,7 +13,7 @@ body {
 .our-item .alc {
     display: inline-block;
     width: 130px;
-    height: 130px;
+    height: 150px;
     margin-bottom: 50px;
     background: #eb1768;
     position: relative;
@@ -49,9 +49,29 @@ body {
 
 }
 .our-item .alc img {
-    width: 70%;
+    width: 100%;
     height: auto;
     border-radius: 50%;
     transform: scale(1);
     transition: all 0.9s 0s;
+}
+.our-item:hover .alc img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+
+}
+.our-item .team-content {
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e5852;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.our-item .post {
+    display: block;
+    font-size: 15px;
+    color: #4e5852;
+    text-transform: capitalize;
+
 }
