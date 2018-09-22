@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container h3 {
+ h1 {
     text-align: center;
 }
 .container {
@@ -187,3 +187,26 @@ ul.social {
     }
 
 }
+footer {
+    text-align: center;
+    font-size: 30px;
+    color: #ee4266;
+}
+footer a {
+  
+        color: #ee4266;
+ 
+}
+
+footer a {
+    
+    padding-left: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+footer.social li {
+ 
+    display: inline;
+   
+ }
