@@ -19,7 +19,7 @@ body {
     text-align: center;
     overflow: hidden;
     position: relative;
-    height: 300px;
+    height: 350px;
 }
 .our-item .alc {
     display: inline-block;
@@ -106,8 +106,9 @@ body {
   
 }
 ul.social {
-    padding: 10px;
+    padding-left: 15px;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 
